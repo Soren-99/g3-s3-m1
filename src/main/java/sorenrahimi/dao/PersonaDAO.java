@@ -8,7 +8,7 @@ import sorenrahimi.entities.Persona;
 
 public class PersonaDAO {
 
-    private EntityManager entityManager;
+    private static EntityManager entityManager;
 
     public PersonaDAO(){
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("g3-s3-m1");
